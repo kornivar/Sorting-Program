@@ -1,2 +1,2 @@
-# Sorting-Program
-A program for sorting files.
+File Organizer
+This program sorts files in a selected folder. It checks each file and moves it into a separate directory depending on its type. Images are moved to an Images folder, videos to a Videos folder, and music files to a Music folder. The program automatically creates these folders if they do not already exist. To use the program, run it and enter the path to the folder you want to organize. The script will sort all supported file types and help keep the directory clean and structured.
