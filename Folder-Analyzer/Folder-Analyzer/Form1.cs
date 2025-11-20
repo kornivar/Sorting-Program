@@ -60,7 +60,7 @@ namespace Folder_Analyzer
                     videosTotal++;
                 }
                 string[] allVideos = videoFiles.ToArray();
-                int videosCount = videoFiles.Count;
+                int videosCount = allVideos.Length;
 
 
                 for (int i = 0; i < Docs.Length; i++)
@@ -70,7 +70,7 @@ namespace Folder_Analyzer
                     docsTotal++;
                 }
                 string[] allDocs = docFiles.ToArray();
-                int docsCount = docFiles.Count;
+                int docsCount = allDocs.Length;
 
 
                 for (int i = 0; i < Pictures.Length; i++)
@@ -80,12 +80,12 @@ namespace Folder_Analyzer
                     picturesTotal++;
                 }
                 string[] allPictures = pictureFiles.ToArray();
-                int picturesCount = pictureFiles.Count;
+                int picturesCount = allPictures.Length;
 
                 this.RichBox.AppendText($"Total Files: {files.Length}" +
-                    $"\nDocs: {docsTotal}" +
-                    $"\nPictures: {picturesTotal}" +
-                    $"\nVideos: {videosTotal} \n");
+                    $"\nDocs: {docsCount}" +
+                    $"\nPictures: {picturesCount}" +
+                    $"\nVideos: {videosCount} \n");
                 this.RichBox.AppendText(new string('-', 50));
 
                 this.RichBox.AppendText("\n DOCS  | Copy Path: C:\\Users\\User\\Desktop\\Docs \n");

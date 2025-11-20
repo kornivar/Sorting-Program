@@ -62,7 +62,7 @@
             this.AnalyzeButton.Name = "AnalyzeButton";
             this.AnalyzeButton.Size = new System.Drawing.Size(108, 31);
             this.AnalyzeButton.TabIndex = 2;
-            this.AnalyzeButton.Text = "Analyze Folder";
+            this.AnalyzeButton.Text = "Move all files";
             this.AnalyzeButton.UseVisualStyleBackColor = true;
             this.AnalyzeButton.Click += new System.EventHandler(this.AnalyzeButton_Click);
             // 
